@@ -1,0 +1,92 @@
+body, p, img, dl, dt, dd, ul, ol, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+body { position: relative; font: 12px/24px/*字号/行高*/ "Microsoft YaHei", Arial; min-width: 960px; }
+ul, ol { list-style: none; }
+img { border: 0 none; }
+input, select { vertical-align: middle; }
+table { border-collapse: collapse; }
+s, em, i { font-style: normal; text-decoration: none; }
+.cf { *zoom: 1; }
+.cf:after { clear: both; content: "."; display: block; height: 0; overflow: hidden; visibility: hidden; zoom: 1; }
+
+/*.box{
+    width: 960px;
+    background: #F8EDFF;
+}
+.box img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 50px 20px 0 50px;
+}
+.box .box-txt{
+    float: left;
+    width: 800px;
+    margin-top: 50px;
+}
+.box .box-txt h1{
+    font-size: 18px;
+}
+.box .box-txt h2{
+    font-size: 12px;
+    color: #8F926E;
+}
+.box .box-txt p{
+    display: block;
+    font-size: 18px;
+    color: #928F18;
+    line-height:30px;
+}
+.box .box-txt .icon{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background: #1E21FF;
+    margin-left: 6px;
+    background: url(http://img.t.sinajs.cn/t6/style/images/common/icon.png?id=201701091726) no-repeat;
+}
+.box .box-txt .gfrz{
+    background-position: 0 -70px;
+}*/
+
+.box{
+    width: 960px;
+    background: #F8EDFF;
+    position: relative;
+    padding-top: 50px;
+}
+.box img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50px;
+}
+.box .box-txt{
+    margin-left: 120px;
+}
+.box .box-txt h1{
+    font-size: 18px;
+}
+.box .box-txt h2{
+    font-size: 12px;
+    color: #8F926E;
+}
+.box .box-txt p{
+    display: block;
+    font-size: 18px;
+    color: #928F18;
+    line-height:30px;
+}
+.box .box-txt .icon{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    /*background: #1E21FF;*/
+    margin-left: 6px;
+    background: url(http://img.t.sinajs.cn/t6/style/images/common/icon.png?id=201701091726) no-repeat;
+}
+.box .box-txt .gfrz{
+    background-position: 0 -70px;
+}
+
+
+
